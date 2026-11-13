@@ -1,0 +1,28 @@
+
+# Temporäre Dateien
+*.tmp
+*.bak
+*.swp
+*~
+
+# Editor-Dateien
+.pulsar/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# LDAP-Sicherheitsdateien
+*.key
+*.pem
+*.p12
+*.pfx
+
+# LDAP-Datenbank und Backups
+*.mdb
+*.ldif.bak
+
+# Lokale Zugangsdaten
+.env
+.env.*
+secrets/
