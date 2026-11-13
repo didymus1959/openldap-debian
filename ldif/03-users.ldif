@@ -1,0 +1,16 @@
+
+dn: uid=testuser1,ou=people,dc=srv,dc=lcd
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+cn: Test Benutzer
+sn: Benutzer
+givenName: Test
+uid: testuser1
+uidNumber: 10001
+gidNumber: 10000
+homeDirectory: /home/testuser1
+loginShell: /bin/bash
+description: LDAP-Testbenutzer

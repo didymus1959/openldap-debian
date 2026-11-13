@@ -1,0 +1,8 @@
+
+dn: cn=ldapusers,ou=groups,dc=srv,dc=lcd
+objectClass: top
+objectClass: posixGroup
+cn: ldapusers
+gidNumber: 10000
+description: LDAP-Testgruppe
+memberUid: testuser1
