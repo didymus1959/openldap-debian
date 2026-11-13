@@ -1,0 +1,11 @@
+dn: ou=people,dc=srv,dc=lcd
+objectClass: top
+objectClass: organizationalUnit
+ou: people
+description: Organisationseinheit fuer Benutzerkonten
+
+dn: ou=groups,dc=srv,dc=lcd
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+description: Organisationseinheit fuer Gruppen
