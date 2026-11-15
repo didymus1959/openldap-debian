@@ -1,0 +1,8 @@
+
+dn: cn=sshusers,ou=groups,dc=srv,dc=lcd
+objectClass: top
+objectClass: posixGroup
+cn: sshusers
+gidNumber: 10001
+memberUid: testuser1
+

@@ -1,0 +1,14 @@
+dn: uid=testuser2,ou=people,dc=srv,dc=lcd
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Test Benutzer 2
+sn: Benutzer
+givenName: Test
+uid: testuser2
+uidNumber: 10002
+gidNumber: 10000
+homeDirectory: /home/testuser2
+loginShell: /bin/bash
+
